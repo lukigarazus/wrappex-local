@@ -1,0 +1,1 @@
+![coverage lines](coverage/badge-lines.svg "Coverage lines") ![coverage functions](coverage/badge-functions.svg "Coverage functions") ![coverage branches](coverage/badge-branches.svg "Coverage branches") ![coverage statements](coverage/badge-statements.svg "Coverage statements")

@@ -1,0 +1,20 @@
+{
+  "name": "wrappex-local",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "fake-indexeddb": "^3.1.2",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "dexie": "^3.0.3",
+    "wrappex": "^0.0.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  }
+}
