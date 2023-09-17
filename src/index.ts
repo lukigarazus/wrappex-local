@@ -1,14 +1,8 @@
-import { Plugin } from "wrappex/types/types";
+import { WrappexPlugin } from "wrappex/types/types";
 import { Dexie } from "dexie";
 import { runInAction } from "mobx";
 
-const plugin: Plugin[number] = (
-  {
-    db,
-    foreignFieldsMapping,
-  }: { db: Dexie; foreignFieldsMapping: Record<string, string> },
-  args
-) => {
+const plugin: WrappexPlugin[number] = ({ db }: { db: Dexie }, args) => {
   const table = db.table(args.typename);
   return (obj) => {
     return {
